@@ -11,7 +11,8 @@
 - [level2] 올바른 괄호 - [올바른 괄호](https://juyoungpark718.github.io/posts/4)
 - [level2] 다음 큰 숫자 - [다음 큰 숫자](https://juyoungpark718.github.io/posts/5)
 - [level2] 땅따먹기 - [땅따먹기](https://juyoungpark718.github.io/posts/6)
-- [level2] 폰켓몬 - [폰켓못](https://juyoungpark718.github.io/posts/8)
+- [level2] 폰켓몬 - [폰켓몬](https://juyoungpark718.github.io/posts/8)
+- [level2] 숫자의 표현 - [숫자의 표현](https://juyoungpark718.github.io/posts/9)
 
 정리 글 - [JYP블로그](https://juyoungpark718.github.io)
 
