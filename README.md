@@ -15,6 +15,8 @@
 - [level2] 숫자의 표현 - [숫자의 표현](https://juyoungpark718.github.io/posts/9)
 - [level2] 최댓값과 최솟값 & 최솟값 만들기 - [최댓값과 최솟값 & 최솟값 만들기](https://juyoungpark718.github.io/posts/11)
 - [level2] 피보나치 수 - [피보나치 수](https://juyoungpark718.github.io/posts/12)
+- [level2] 행렬의 곱셈 - [행렬의 곱셈](https://juyoungpark718.github.io/posts/13)
+- [level2] JadenCase - [JadenCase](https://juyoungpark718.github.io/posts/14)
 
 정리 글 - [JYP블로그](https://juyoungpark718.github.io)
 
