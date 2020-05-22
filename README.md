@@ -20,6 +20,8 @@
 - [level2] N개의 최소공배수 - [N개의 최소공배수](https://juyoungpark718.github.io/posts/15)
 - [level2] 짝지어 제거하기 - [짝지어 제거하기](https://juyoungpark718.github.io/posts/16)
 - [level2] 소수 만들기 - [소수 만들기](https://juyoungpark718.github.io/posts/17)
+- [level2] 점프와 순간이동 - [점프와 순간이동](https://juyoungpark718.github.io/posts/18)
+- [level2] 영어 끝말잇기 - [영어 끝말잇기](https://juyoungpark718.github.io/posts/19)
 
 정리 글 - [JYP블로그](https://juyoungpark718.github.io)
 
