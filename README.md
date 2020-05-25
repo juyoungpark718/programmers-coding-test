@@ -24,5 +24,6 @@
 - [level2] 영어 끝말잇기 - [영어 끝말잇기](https://juyoungpark718.github.io/posts/19)
 - [level2] 예상 대진표 - [예상 대진표](https://juyoungpark718.github.io/posts/20)
 - [level2] 뉴스 클러스터링 - [뉴스 클러스터링](https://juyoungpark718.github.io/posts/22)
+- [level2] 프렌즈 4블록 - [프렌즈 4블록](https://juyoungpark718.github.io/posts/23)
 
 정리 글 - [JYP블로그](https://juyoungpark718.github.io)
