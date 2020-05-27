@@ -26,5 +26,6 @@
 - [level2] 뉴스 클러스터링 - [뉴스 클러스터링](https://juyoungpark718.github.io/posts/22)
 - [level2] 프렌즈 4블록 - [프렌즈 4블록](https://juyoungpark718.github.io/posts/23)
 - [level2] 캐시 - [캐시](https://juyoungpark718.github.io/posts/24)
+- [level2] 오픈채팅방 - [오픈채팅방](https://juyoungpark718.github.io/posts/25)
 
 정리 글 - [JYP블로그](https://juyoungpark718.github.io)
