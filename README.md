@@ -27,7 +27,8 @@
 - [level2] 프렌즈 4블록 - [프렌즈 4블록](https://juyoungpark718.github.io/posts/23)
 - [level2] 캐시 - [캐시](https://juyoungpark718.github.io/posts/24)
 - [level2] 오픈채팅방 - [오픈채팅방](https://juyoungpark718.github.io/posts/25)
-- [level2] 방금그곡 - [방금그곡]([http](https://juyoungpark718.github.io/posts/27))
+- [level2] 방금그곡 - [방금그곡](https://juyoungpark718.github.io/posts/27)
+- [level2] 압축 - [압축](https://juyoungpark718.github.io/posts/28)
 
 ---
 
