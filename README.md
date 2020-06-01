@@ -30,6 +30,7 @@
 - [level2] 방금그곡 - [방금그곡](https://juyoungpark718.github.io/posts/27)
 - [level2] 압축 - [압축](https://juyoungpark718.github.io/posts/28)
 - [level2] 파일명정렬 - [파일명정렬](https://juyoungpark718.github.io/posts/29)
+- [level2] n진수 게임 - [n진수 게임](https://juyoungpark718.github.io/posts/30)
 
 ---
 
