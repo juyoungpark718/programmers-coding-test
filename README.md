@@ -5,6 +5,9 @@
 ### 프로그래머스 코딩테스트 연습 문제
 
 사용 언어 - javascript
+
+#### 레벨2
+
 - [level2] 소수 찾기 - [소수 찾기](https://juyoungpark718.github.io/posts/26)
 - [level2] 카펫 - [카펫](https://juyoungpark718.github.io/posts/2)
 - [level2] 가장 큰 정사각형 - [가장 큰 정사각형](https://juyoungpark718.github.io/posts/3)
@@ -31,6 +34,10 @@
 - [level2] 압축 - [압축](https://juyoungpark718.github.io/posts/28)
 - [level2] 파일명정렬 - [파일명정렬](https://juyoungpark718.github.io/posts/29)
 - [level2] n진수 게임 - [n진수 게임](https://juyoungpark718.github.io/posts/30)
+
+#### 레벨3
+
+-  [level2] 추석 트래픽 - [추석 트래픽](https://juyoungpark718.github.io/posts/31)
 
 ---
 
