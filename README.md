@@ -37,7 +37,8 @@
 
 #### 레벨3
 
--  [level2] 추석 트래픽 - [추석 트래픽](https://juyoungpark718.github.io/posts/31)
+-  [level3] 추석 트래픽 - [추석 트래픽](https://juyoungpark718.github.io/posts/31)
+-  [level3] 종이접기 - [종이접기](https://juyoungpark718.github.io/posts/32)
 
 ---
 
