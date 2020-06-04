@@ -1,10 +1,8 @@
 # programmers-coding-test
 
----
-
 ### 프로그래머스 코딩테스트 연습 문제
 
-사용 언어 - javascript
+**사용 언어 - javascript**
 
 #### 레벨2
 
@@ -39,10 +37,13 @@
 
 -  [level3] 추석 트래픽 - [추석 트래픽](https://juyoungpark718.github.io/posts/31)
 -  [level3] 종이접기 - [종이접기](https://juyoungpark718.github.io/posts/32)
+-  [level3] N으로 표현 - [N으로 표현](https://juyoungpark718.github.io/posts/33)
 
 ---
 
 ## 시도했지만 못푼 문제
 - [ ] [level2] 후보키
+
+---
 
 정리 글 - [JYP블로그](https://juyoungpark718.github.io)
