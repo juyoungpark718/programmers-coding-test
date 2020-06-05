@@ -38,6 +38,7 @@
 -  [level3] 추석 트래픽 - [추석 트래픽](https://juyoungpark718.github.io/posts/31)
 -  [level3] 종이접기 - [종이접기](https://juyoungpark718.github.io/posts/32)
 -  [level3] N으로 표현 - [N으로 표현](https://juyoungpark718.github.io/posts/33)
+-  [level3] 2 X n 타일링 - [2 X n 타일링](https://juyoungpark718.github.io/posts/34)
 
 ---
 
