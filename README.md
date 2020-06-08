@@ -41,11 +41,13 @@
 -  [level3] 2 X n 타일링 - [2 X n 타일링](https://juyoungpark718.github.io/posts/34)
 -  [level3] 타일 장식물 - [타일 장식물](https://juyoungpark718.github.io/posts/35)
 -  [level3] 네트워크 - [네트워크](https://juyoungpark718.github.io/posts/36)
+-  [level3] 디스크 컨트롤러 - [디스크 컨트롤러](https://juyoungpark718.github.io/posts/37)
 
 ---
 
 ## 시도했지만 못푼 문제
 - [ ] [level2] 후보키
+- [ ] [level3] 자물쇠와 열쇠
 
 ---
 
