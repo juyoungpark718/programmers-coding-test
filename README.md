@@ -43,6 +43,7 @@
 - [level3] 네트워크 - [네트워크](https://juyoungpark718.github.io/posts/36)
 - [level3] 디스크 컨트롤러 - [디스크 컨트롤러](https://juyoungpark718.github.io/posts/37)
 - [level3] 섬 연결하기 - [섬 연결하기](https://juyoungpark718.github.io/posts/38)
+- [level3] 가장 먼 노드 - [가장 먼 노드](https://juyoungpark718.github.io/posts/39)
 ---
 
 ## 시도했지만 못푼 문제
