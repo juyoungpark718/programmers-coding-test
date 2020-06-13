@@ -46,6 +46,7 @@
 - [level3] 가장 먼 노드 - [가장 먼 노드](https://juyoungpark718.github.io/posts/39)
 - [level3] 단어 변환 - [단어 변환](https://juyoungpark718.github.io/posts/40)
 - [level3] 예산 - [예산](https://juyoungpark718.github.io/posts/41)
+- [level3] 단속 카메라 - [단속 카메라](https://juyoungpark718.github.io/posts/42)
 
 ---
 
