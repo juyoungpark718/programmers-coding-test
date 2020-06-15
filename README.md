@@ -47,10 +47,13 @@
 - [level3] 단어 변환 - [단어 변환](https://juyoungpark718.github.io/posts/40)
 - [level3] 예산 - [예산](https://juyoungpark718.github.io/posts/41)
 - [level3] 단속 카메라 - [단속 카메라](https://juyoungpark718.github.io/posts/42)
+- [level3] 여행경로 - [여행경로](https://juyoungpark718.github.io/posts/43)
+- [level3] 이중우선순위큐 - [이중우선순위큐](https://juyoungpark718.github.io/posts/44)
 
 ---
 
 ## 시도했지만 못푼 문제
+
 - [ ] [level2] 후보키
 - [ ] [level3] 자물쇠와 열쇠
 
