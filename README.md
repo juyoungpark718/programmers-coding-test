@@ -51,6 +51,7 @@
 - [level3] 이중우선순위큐 - [이중우선순위큐](https://juyoungpark718.github.io/posts/44)
 - [level3] 입국심사 - [입국심사](https://juyoungpark718.github.io/posts/45)
 - [level3] 순위 - [순위](https://juyoungpark718.github.io/posts/46)
+- [level3] 저울 - [저울](https://juyoungpark718.github.io/posts/47)
 
 ---
 
@@ -59,6 +60,7 @@
 - [ ] [level2] 후보키
 - [ ] [level3] 자물쇠와 열쇠
 - [ ] [level3] 입국심사
+- [ ] [level3] 순위
 
 ---
 
