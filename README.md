@@ -52,6 +52,7 @@
 - [level3] 입국심사 - [입국심사](https://juyoungpark718.github.io/posts/45)
 - [level3] 순위 - [순위](https://juyoungpark718.github.io/posts/46)
 - [level3] 저울 - [저울](https://juyoungpark718.github.io/posts/47)
+- [level3] 정수삼각형 - [정수삼각형](https://juyoungpark718.github.io/posts/48)
 
 ---
 
