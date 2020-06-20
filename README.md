@@ -53,6 +53,7 @@
 - [level3] 순위 - [순위](https://juyoungpark718.github.io/posts/46)
 - [level3] 저울 - [저울](https://juyoungpark718.github.io/posts/47)
 - [level3] 정수삼각형 - [정수삼각형](https://juyoungpark718.github.io/posts/48)
+- [level3] 가장긴팰린드롬 - [가장긴팰린드롬](https://juyoungpark718.github.io/posts/49)
 
 ---
 

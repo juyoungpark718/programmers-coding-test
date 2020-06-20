@@ -1,32 +1,36 @@
-let fs = require("fs");
-// let input = fs.readFileSync("/dev/stdin").toString().split("\n");
-let input = fs.readFileSync("./stdin").toString().split("\n");
-let len = input.shift();
-let glasses = input.map((e) => Number(e));
-
-permutation(glasses, [], 0).map((e) => console.log(e));
-
-// 6 10 13 9 8 1
-
-function permutation(arr, total, seq) {
-  return arr.reduce((acc, val, idx) => {
-    let newArr = [...arr];
-    let result = [];
-    if (idx === 0) newArr.splice(idx, 1);
-    else newArr.splice(0, idx + 1);
-    if (seq < 2) {
-      total.push(val);
-      seq++;
-      result = permutation(newArr, [...total], seq);
-      seq--;
-    } else {
-      seq = 0;
-      result = permutation(newArr, [...total], seq);
-    }
-    total.pop();
-    if (result.length === 0)
-      result.push([...total].reduce((acc, val) => acc + val, 0));
-    acc.push(...result);
-    return acc;
-  }, []);
+var fs = require("fs");
+// var input = fs.readFileSync("/dev/stdin").toString().split("\n");
+var input = fs.readFileSync("./stdin").toString().split("\n");
+var info = input[0].split(" ").map((e) => e / 1);
+var link = [];
+for (var k = 1; k < input.length; k++) {
+  link.push(input[k].split(" ").map((e) => e / 1));
 }
+link = link.sort((a, b) => a[2] - b[2]);
+
+var edge = [];
+
+var cycleTable = new Array(info[0] + 1);
+for (var i = 0; i < cycleTable.length; i++) {
+  cycleTable[i] = i;
+}
+console.log("cycleTable(before): ", cycleTable);
+var answer = 0;
+while (true) {
+  var current = link.shift();
+  if (cycleTable[current[1]] !== cycleTable[current[0]]) {
+    cycleTable[current[1]] = cycleTable[current[0]];
+    edge.push(current[2]);
+  } else {
+    continue;
+  }
+  console.log("edge ", edge, info[0]);
+  if (edge.length === info[0] - 1) {
+    answer = edge.reduce((a, b) => a + b);
+    break;
+  }
+}
+console.log("cycleTable(after): ", cycleTable);
+console.log("edge: ", edge);
+// var answer = edge.reduce((a,b)=>a+b)
+console.log("answer", answer);
