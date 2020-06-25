@@ -1,4 +1,4 @@
-# programmers-coding-test
+# programmers-coding-test // baekjoon
 
 ### 프로그래머스 코딩테스트 연습 문제
 
@@ -57,7 +57,8 @@
 - [level3] 거스름돈 - [거스름돈](https://juyoungpark718.github.io/posts/50)
 - [level3] 멀리뛰기 - [멀리뛰기](https://juyoungpark718.github.io/posts/51)
 - [level3] 야근 지수 - [야근 지수](https://juyoungpark718.github.io/posts/52)
-- [level3] 줄서는 방법 - [줄서는 방법](https://juyoungpark718.github.io/posts/53)
+- [level3] 방문 길이 - [방문 길이](https://juyoungpark718.github.io/posts/53)
+- [level3] 줄서는 방법 - [줄서는 방법](https://juyoungpark718.github.io/posts/54)
 
 ---
 
@@ -69,5 +70,11 @@
 - [ ] [level3] 순위
 
 ---
+
+### 프로그래머스 코딩테스트 연습 문제
+
+**사용 언어 - javascript**
+
+- [2580번] 스도쿠 - [스도쿠](https://juyoungpark718.github.io/posts/55)
 
 정리 글 - [JYP블로그](https://juyoungpark718.github.io)
