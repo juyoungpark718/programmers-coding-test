@@ -56,7 +56,8 @@
 - [level3] 가장긴팰린드롬 - [가장긴팰린드롬](https://juyoungpark718.github.io/posts/49)
 - [level3] 거스름돈 - [거스름돈](https://juyoungpark718.github.io/posts/50)
 - [level3] 멀리뛰기 - [멀리뛰기](https://juyoungpark718.github.io/posts/51)
-- [level3] 야근 지수 - [야근 지수](https://juyoungpark718.github.io/posts/51)
+- [level3] 야근 지수 - [야근 지수](https://juyoungpark718.github.io/posts/52)
+- [level3] 줄서는 방법 - [줄서는 방법](https://juyoungpark718.github.io/posts/53)
 
 ---
 

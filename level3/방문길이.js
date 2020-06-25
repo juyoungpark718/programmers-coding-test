@@ -2,6 +2,7 @@ function solution(dirs) {
   var answer = 0;
   let arr = Array(11).fill(0);
   arr = arr.map((e) => Array(11).fill(0));
+  let visited = new Set();
   let start = [5, 5];
   for (let i = 0; i < dirs.length; i++) {
     let [dx, dy] = move(dirs[i]);
@@ -12,21 +13,13 @@ function solution(dirs) {
       start[1] + dy >= 11
     )
       continue;
+    let before = [start[0], start[1]];
     start[0] += dx;
-    start[1] -= dy;
-    if (dirs[i] === "U" || dirs[i] === "D") {
-      if (!arr[start[1]][start[0]]) {
-        arr[start[1]][start[0]] = 1;
-        answer += 1;
-      }
-    } else {
-      if (!arr[start[0]][start[1]]) {
-        arr[start[0]][start[1]] = 1;
-        answer += 1;
-      }
-    }
+    start[1] += dy;
+    visited.add(`${before[0]}${before[1]}${start[0]}${start[1]}`);
+    visited.add(`${start[0]}${start[1]}${before[0]}${before[1]}`);
   }
-  console.log(arr);
+  answer = visited.size / 2;
   return answer;
 }
 
