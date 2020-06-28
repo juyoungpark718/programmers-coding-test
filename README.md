@@ -59,8 +59,9 @@
 - [level3] 야근 지수 - [야근 지수](https://juyoungpark718.github.io/posts/52)
 - [level3] 방문 길이 - [방문 길이](https://juyoungpark718.github.io/posts/53)
 - [level3] 줄서는 방법 - [줄서는 방법](https://juyoungpark718.github.io/posts/54)
-- [level3] 최고의 집합 - [최고의 집합](https://juyoungpark718.github.io/posts/55)
 - [level3] 최고의 집합 - [최고의 집합](https://juyoungpark718.github.io/posts/56)
+- [level3] 하노이의 탑 - [하노이의 탑](https://juyoungpark718.github.io/posts/57)
+- [level3] N Queen - [N Queen](https://juyoungpark718.github.io/posts/58)
 
 
 ---
