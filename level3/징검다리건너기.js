@@ -1,7 +1,6 @@
 function solution(stones, k) {
-  var answer = 0;
   let min = 1;
-  let max = Math.max(...stones);
+  let max = 200000000;
   while (min <= max) {
     let mid = parseInt((min + max) / 2);
     if (search(k, mid, stones)) {
