@@ -65,6 +65,7 @@
 - [level3] 징검다리 건너기 - [징검다리 건너기](https://juyoungpark718.github.io/posts/59)
 - [level3] 배달 - [배달](https://juyoungpark718.github.io/posts/60)
 - [level3] 기지국설치 - [기지국설치](https://juyoungpark718.github.io/posts/61)
+- [level3] 숫자게임 - [숫자게임](https://juyoungpark718.github.io/posts/62)
 
 
 ---
