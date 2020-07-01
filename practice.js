@@ -1,49 +1,45 @@
-function solution(n, edge) {
-  var answer = 0;
-  var relationship = new Array(n);
-  for (var j = 0; j < relationship.length; j++) {
-    relationship[j] = [];
-  }
+function solution(gems) {
+  var answer = [];
+  let kinds = new Set(gems).size;
+  if (kinds === gems.length) return [1, gems.length];
+  if (kinds === 1) return [1, 1];
+  let check = new Map();
+  let arr = [];
+  let start = 0;
 
-  for (var i = 0; i < edge.length; i++) {
-    var first = edge[i][0];
-    var second = edge[i][1];
-    relationship[first - 1].push(first, second);
-    relationship[second - 1].push(second, first);
-  }
-
-  for (var k = 0; k < relationship.length; k++) {
-    relationship[k] = [...new Set(relationship[k])].sort((a, b) => a - b);
-  }
-
-  var q = [];
-  var result = [];
-  //   while (true) {
-  q.push(...relationship[0]);
-  for (var i = 1; i < q.length; i++) {
-    var pointer = q[i];
-    var temp = relationship[pointer - 1].filter((e) => !q.includes(e));
-    if (temp.length !== 0) {
-      q.push(...temp);
+  for (let i = 0; i < gems.length; i++) {
+    if (check.size === kinds) break;
+    if (check.get(gems[i])) {
+      check.get(gems[i]).push(gems[i]);
     } else {
-      result.push(pointer);
+      check.set(gems[i], []);
+      check.get(gems[i]).push(gems[i]);
     }
+    arr.push(gems[i]);
+    start = remove(arr, check, start);
+    // console.log(arr,start);
   }
-  //   }
-
-  answer = result.length;
-
   return answer;
 }
-let a = solution(7, [
-  [3, 6],
-  [4, 3],
-  [3, 2],
-  [1, 3],
-  [1, 2],
-  [2, 4],
-  [5, 2],
-  [1, 7],
-]);
 
-console.log(a);
+function remove(arr, check, start) {
+  while (true) {
+    let el = arr[0];
+    console.log(arr[0]);
+    console.log(arr);
+    console.log(check.get(el));
+    if (check.get(el).length > 1) {
+      check.get(el).pop();
+      arr.shift();
+      ++start;
+    } else {
+      break;
+    }
+  }
+  return start;
+}
+
+solution(["DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA"]);
+solution(["AA", "AB", "AC", "AA", "AC"]);
+solution(["XYZ", "XYZ", "XYZ"]);
+solution(["ZZZ", "YYY", "NNNN", "YYY", "BBB"]);
