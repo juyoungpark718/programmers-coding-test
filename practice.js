@@ -1,45 +1,24 @@
 function solution(gems) {
-  var answer = [];
-  let kinds = new Set(gems).size;
-  if (kinds === gems.length) return [1, gems.length];
-  if (kinds === 1) return [1, 1];
-  let check = new Map();
-  let arr = [];
-  let start = 0;
+  const gemVarietyCounts = new Set(gems).size;
 
-  for (let i = 0; i < gems.length; i++) {
-    if (check.size === kinds) break;
-    if (check.get(gems[i])) {
-      check.get(gems[i]).push(gems[i]);
-    } else {
-      check.set(gems[i], []);
-      check.get(gems[i]).push(gems[i]);
+  const gemMap = new Map();
+  const gemLengths = [];
+  gems.forEach((gem, i) => {
+    gemMap.delete(gem);
+    gemMap.set(gem, i);
+    if (gemMap.size === gemVarietyCounts) {
+      gemLengths.push([gemMap.values().next().value + 1, i + 1]);
     }
-    arr.push(gems[i]);
-    start = remove(arr, check, start);
-    // console.log(arr,start);
-  }
-  return answer;
-}
+  });
 
-function remove(arr, check, start) {
-  while (true) {
-    let el = arr[0];
-    console.log(arr[0]);
-    console.log(arr);
-    console.log(check.get(el));
-    if (check.get(el).length > 1) {
-      check.get(el).pop();
-      arr.shift();
-      ++start;
-    } else {
-      break;
+  gemLengths.sort((a, b) => {
+    if (a[1] - a[0] === b[1] - b[0]) {
+      return a[1] - b[1];
     }
-  }
-  return start;
+    return a[1] - a[0] - (b[1] - b[0]);
+  });
+
+  return gemLengths[0];
 }
 
 solution(["DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA"]);
-solution(["AA", "AB", "AC", "AA", "AC"]);
-solution(["XYZ", "XYZ", "XYZ"]);
-solution(["ZZZ", "YYY", "NNNN", "YYY", "BBB"]);
