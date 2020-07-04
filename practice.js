@@ -1,24 +1,30 @@
-function solution(gems) {
-  const gemVarietyCounts = new Set(gems).size;
-
-  const gemMap = new Map();
-  const gemLengths = [];
-  gems.forEach((gem, i) => {
-    gemMap.delete(gem);
-    gemMap.set(gem, i);
-    if (gemMap.size === gemVarietyCounts) {
-      gemLengths.push([gemMap.values().next().value + 1, i + 1]);
-    }
+function solution(board) {
+  var answer = 0;
+  let arr = Array.from(Array(board.length), () => Array(board.length).fill(0));
+  board.forEach((e, id) => {
+    e.forEach((el, index) => {
+      if (el === 1) arr[id][index] = Infinity;
+    });
   });
-
-  gemLengths.sort((a, b) => {
-    if (a[1] - a[0] === b[1] - b[0]) {
-      return a[1] - b[1];
+  for (let i = 0; i < board.length; i++) {
+    for (let j = 0; j < board.length; j++) {
+      if (arr[i][j] === Infinity) continue;
+      if (arr[i - 1][j] && arr[i][j - 1])
+        arr[i][j] = Math.min(arr[i - 1][j], arr[i][j - 1]) + 600;
+      else if (arr[i][j - 1]) arr[i][j] = arr[i][j - 1] + 100;
+      else if (arr[i - 1][j]) arr[i][j] = arr[i - 1][j] + 100;
     }
-    return a[1] - a[0] - (b[1] - b[0]);
-  });
-
-  return gemLengths[0];
+  }
+  console.log(arr);
+  return answer;
 }
-
-solution(["DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA"]);
+solution([
+  [0, 0, 0],
+  [0, 0, 0],
+  [0, 0, 0],
+]);
+/*
+0  100 200
+100  700 800
+200  800 900
+*/
