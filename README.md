@@ -68,6 +68,9 @@
 - [level3] 기지국설치 - [기지국설치](https://juyoungpark718.github.io/posts/61)
 - [level3] 숫자게임 - [숫자게임](https://juyoungpark718.github.io/posts/62)
 - [level3] 보석쇼핑 - [보석쇼핑](https://juyoungpark718.github.io/posts/63)
+- [level3] 경주로 건설 - [경주로 건설](https://juyoungpark718.github.io/posts/64)
+- [level3] 셔틀 버스 - [셔틀 버스](https://juyoungpark718.github.io/posts/65)
+
 
 
 ---
