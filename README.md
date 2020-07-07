@@ -70,7 +70,7 @@
 - [level3] 보석쇼핑 - [보석쇼핑](https://juyoungpark718.github.io/posts/63)
 - [level3] 경주로 건설 - [경주로 건설](https://juyoungpark718.github.io/posts/64)
 - [level3] 셔틀 버스 - [셔틀 버스](https://juyoungpark718.github.io/posts/65)
-
+- [level3] 길찾기 게임 - [길찾기 게임](https://juyoungpark718.github.io/posts/66)
 
 
 ---
