@@ -33,6 +33,7 @@
 - [level2] 파일명정렬 - [파일명정렬](https://juyoungpark718.github.io/posts/29)
 - [level2] n진수 게임 - [n진수 게임](https://juyoungpark718.github.io/posts/30)
 - [level2] 수식 최대화 - [수식 최대화](https://juyoungpark718.github.io/posts/64)
+- [level2] 조이스틱 - [조이스틱](https://juyoungpark718.github.io/posts/65)
 
 #### 레벨3
 
