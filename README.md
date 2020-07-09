@@ -33,7 +33,7 @@
 - [level2] 파일명정렬 - [파일명정렬](https://juyoungpark718.github.io/posts/29)
 - [level2] n진수 게임 - [n진수 게임](https://juyoungpark718.github.io/posts/30)
 - [level2] 수식 최대화 - [수식 최대화](https://juyoungpark718.github.io/posts/64)
-- [level2] 조이스틱 - [조이스틱](https://juyoungpark718.github.io/posts/65)
+- [level2] 조이스틱 - [조이스틱](https://juyoungpark718.github.io/posts/68)
 
 #### 레벨3
 
@@ -69,9 +69,9 @@
 - [level3] 기지국설치 - [기지국설치](https://juyoungpark718.github.io/posts/61)
 - [level3] 숫자게임 - [숫자게임](https://juyoungpark718.github.io/posts/62)
 - [level3] 보석쇼핑 - [보석쇼핑](https://juyoungpark718.github.io/posts/63)
-- [level3] 경주로 건설 - [경주로 건설](https://juyoungpark718.github.io/posts/64)
-- [level3] 셔틀 버스 - [셔틀 버스](https://juyoungpark718.github.io/posts/65)
-- [level3] 길찾기 게임 - [길찾기 게임](https://juyoungpark718.github.io/posts/66)
+- [level3] 경주로 건설 - [경주로 건설](https://juyoungpark718.github.io/posts/65)
+- [level3] 셔틀 버스 - [셔틀 버스](https://juyoungpark718.github.io/posts/66)
+- [level3] 길찾기 게임 - [길찾기 게임](https://juyoungpark718.github.io/posts/67)
 
 
 ---
@@ -90,5 +90,6 @@
 **사용 언어 - javascript**
 
 - [2580번] 스도쿠 - [스도쿠](https://juyoungpark718.github.io/posts/55)
+- [1094번] 막대기 - [막대기](https://juyoungpark718.github.io/posts/69)
 
 정리 글 - [JYP블로그](https://juyoungpark718.github.io)
