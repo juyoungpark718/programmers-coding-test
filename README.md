@@ -74,7 +74,7 @@
 - [level3] 길찾기 게임 - [길찾기 게임](https://juyoungpark718.github.io/posts/67)
 
 #### level4
-- [level4] 가사 검색 - [가사 검색](https://juyoungpark718.github.io/posts/69)
+- [level4] 가사 검색 - [가사 검색](https://juyoungpark718.github.io/posts/70)
 
 
 ---
@@ -92,7 +92,8 @@
 
 **사용 언어 - javascript**
 
-- [2580번] 스도쿠 - [스도쿠](https://juyoungpark718.github.io/posts/55)
 - [1094번] 막대기 - [막대기](https://juyoungpark718.github.io/posts/69)
+- [1149번] RGB거리 - [RGB거리](https://juyoungpark718.github.io/posts/71)
+- [2580번] 스도쿠 - [스도쿠](https://juyoungpark718.github.io/posts/55)
 
 정리 글 - [JYP블로그](https://juyoungpark718.github.io)
