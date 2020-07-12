@@ -94,6 +94,7 @@
 
 - [1094번] 막대기 - [막대기](https://juyoungpark718.github.io/posts/69)
 - [1149번] RGB거리 - [RGB거리](https://juyoungpark718.github.io/posts/71)
+- [2579번] 계단오르기 - [계단오르기](https://juyoungpark718.github.io/posts/72)
 - [2580번] 스도쿠 - [스도쿠](https://juyoungpark718.github.io/posts/55)
 
 정리 글 - [JYP블로그](https://juyoungpark718.github.io)
