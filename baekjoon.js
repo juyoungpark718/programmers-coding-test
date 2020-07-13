@@ -1,24 +1,24 @@
 var fs = require("fs");
-var input = fs
-  .readFileSync("/dev/stdin")
-  .toString()
-  .trim()
-  .split("\n")
-  .map((e) => parseInt(e));
-// var input = fs
-//   .readFileSync("./stdin")
-//   .toString()
-//   .split("\n")
-//   .map((e) => parseInt(e));
-let n = input[0];
-let cost = input.filter((e, id) => id !== 0);
-let dp = Array(n).fill(0);
-dp[0] = cost[0];
-dp[1] = cost[0] + cost[1];
-dp[2] = Math.max(cost[0] + cost[2], cost[1] + cost[2]);
+// var input = fs.readFileSync("/dev/stdin").toString().trim();
+var input = fs.readFileSync("./stdin").toString().trim();
 
-for (let i = 3; i < n; i++) {
-  dp[i] = Math.max(dp[i - 3] + cost[i - 1] + cost[i], dp[i - 2] + cost[i]);
+var nums = input.split("").sort((a, b) => b / 1 - a / 1);
+var sum = nums.reduce((a, b) => a / 1 + b / 1);
+
+var answer = -1;
+if (nums[nums.length - 1] == "0" && sum % 3 == 0) {
+  answer = nums.join("");
 }
+console.log(answer);
 
-console.log(dp[n - 1]);
+// let n = [...input];
+// let total = 0;
+// n.forEach((e) => (total += Number(e)));
+
+// if (!n.includes("0") || total % 3 !== 0) {
+//   console.log(-1);
+//   process.exit(0);
+// }
+
+// n.sort((a, b) => Number(b) - Number(a));
+// console.log(n.join(""));

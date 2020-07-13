@@ -72,6 +72,7 @@
 - [level3] 경주로 건설 - [경주로 건설](https://juyoungpark718.github.io/posts/65)
 - [level3] 셔틀 버스 - [셔틀 버스](https://juyoungpark718.github.io/posts/66)
 - [level3] 길찾기 게임 - [길찾기 게임](https://juyoungpark718.github.io/posts/67)
+- [level3] 자물쇠와 열쇠 - [자물쇠와 열쇠](https://juyoungpark718.github.io/posts/72)
 
 #### level4
 - [level4] 가사 검색 - [가사 검색](https://juyoungpark718.github.io/posts/70)
