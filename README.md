@@ -74,6 +74,7 @@
 - [level3] 길찾기 게임 - [길찾기 게임](https://juyoungpark718.github.io/posts/67)
 - [level3] 자물쇠와 열쇠 - [자물쇠와 열쇠](https://juyoungpark718.github.io/posts/73)
 - [level3] 기둥과 보 설치 - [기둥과 보 설치](https://juyoungpark718.github.io/posts/74)
+- [level3] 외벽 점검 - [외벽 점검](https://juyoungpark718.github.io/posts/75)
 
 #### level4
 - [level4] 가사 검색 - [가사 검색](https://juyoungpark718.github.io/posts/70)
