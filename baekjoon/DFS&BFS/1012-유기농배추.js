@@ -1,6 +1,6 @@
 const fs = require("fs");
-// const input = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
-const input = fs.readFileSync("./stdin").toString().trim().split("\n");
+const input = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
+// const input = fs.readFileSync("./stdin").toString().trim().split("\n");
 
 const dx = [1, 0, -1, 0];
 const dy = [0, 1, 0, -1];
