@@ -97,6 +97,7 @@
 **사용 언어 - javascript**
 
 - [1094번] 막대기 - [막대기](https://juyoungpark718.github.io/posts/69)
+- [1012번] 유기농 배추 - [유기농 배추](https://juyoungpark718.github.io/posts/78)
 - [1149번] RGB거리 - [RGB거리](https://juyoungpark718.github.io/posts/71)
 - [1260번] DFS와 BFS - [DFS와 BFS](https://juyoungpark718.github.io/posts/77)
 - [2579번] 계단오르기 - [계단오르기](https://juyoungpark718.github.io/posts/72)
