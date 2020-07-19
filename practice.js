@@ -1,104 +1,45 @@
-const regExp = {
-  meta: /<meta.+?content="(https:\/\/.+?)"/, // Url
-  a: /<a href="(https:\/\/.+?)">/g, // a tag href
-  href: /<a href="(https:\/\/.+?)">/,
-  removeA: /<a href="https:\/\/.+?">[A-Za-z\s]*<\/a>/, // remove a
-  body: /<body>([\w\W]*)<\/body>/, // body
-};
-
-function solution(word, pages) {
+function solution(n, costs) {
   var answer = 0;
-  const pagesInfo = new Map();
-  setPageInfo(pages, pagesInfo, word);
-  let indexs = getPageIndexs(pagesInfo);
-  // console.log(indexs);
-  return indexs.pop().id;
-}
-
-function getPageIndexs(pagesInfo) {
-  let indexs = [];
-  for (let pageKey of pagesInfo.keys()) {
-    let page = pagesInfo.get(pageKey);
-    let linkScore = page.linkScore ? page.linkScore : 0;
-    indexs.push({ id: page.id, total: page.baseScore + linkScore });
+  costs.sort((a, b) => a[2] - b[2]);
+  var cycleTable = Array(101).fill(-1);
+  for (var i = 0; i < costs.length; i++) {
+    if (!cycleTable.includes(costs[i][0]))
+      cycleTable[costs[i][0]] = costs[i][0];
+    if (!cycleTable.includes(costs[i][1]))
+      cycleTable[costs[i][1]] = costs[i][1];
   }
-  indexs.sort((a, b) => {
-    if (a.total > b.total) {
-      return 1;
-    } else if (a.total < b.total) {
-      return -1;
-    } else {
-      return b.id - a.id;
-    }
-  });
-  return indexs;
-}
-
-function setPageInfo(pages, pagesInfo, word) {
-  pages.forEach((page, id) => {
-    let url = getMetaUrl(page);
-    let hrefs = getHrefs(page);
-    let body = getBody(page);
-    let wordCount = getWordCount(body, word);
-    let pageInfo = {
-      id,
-      baseScore: wordCount,
-      externalLink: hrefs,
-    };
-    pagesInfo.set(url, pageInfo);
-  });
-  for (let pageInfo of pagesInfo.keys()) {
-    let info = pagesInfo.get(pageInfo);
-    let linkScore = info.baseScore / info.externalLink.length;
-
-    info.externalLink.forEach((exLink) => {
-      let page = pagesInfo.get(exLink);
-      if (page) {
-        if (page.linkScore) {
-          page.linkScore += linkScore;
-          pagesInfo.set(exLink, { ...page });
-        } else {
-          pagesInfo.set(exLink, { ...page, linkScore: linkScore });
-        }
-      }
-    });
-  }
-}
-
-function getWordCount(body, keyword) {
-  let words = body.split(/\W|\d/);
-  let count = 0;
-  words.forEach((word) => {
-    if (word.toLowerCase() === keyword.toLowerCase()) {
+  var count = 0;
+  for (var i = 0; i < costs.length; i++) {
+    var current = costs[i];
+    var one = current[0];
+    var the_other = current[1];
+    var cost = current[2];
+    if (cycleTable[the_other] !== cycleTable[one]) {
+      cycleTable = changeCycleTableNumber(cycleTable, one, the_other);
+      console.log(cycleTable);
+      answer += cost;
       count++;
     }
-  });
-  return count;
-}
-
-function getBody(page) {
-  // body 안의 내용 가져오기.
-  let body = page.match(regExp.body)[1];
-  let removed = body
-    .split(/<a href="https:\/\/.+?">[A-Za-z\s]*<\/a>/)
-    .map((e) => e.trim())
-    .filter((e) => e !== ""); // a태그 제거.
-  return removed.join("\n");
-}
-
-function getMetaUrl(page) {
-  let meta = page.match(regExp.meta);
-  return meta[1];
-}
-
-function getHrefs(page) {
-  let hrefs = [];
-  let matchResults = page.match(regExp.a);
-  if (matchResults !== null) {
-    for (let matchResult of matchResults) {
-      let href = matchResult.match(regExp.href)[1];
-      hrefs.push(href);
-    }
+    if (count === n - 1) break;
   }
-  return hrefs;
+  return answer;
 }
+
+function changeCycleTableNumber(cycleTable, one, the_other) {
+  for (var i = 0; i < cycleTable.length; i++) {
+    if (cycleTable[i] === cycleTable[the_other])
+      cycleTable[i] = cycleTable[one];
+  }
+  return cycleTable;
+}
+
+solution(6, [
+  [0, 1, 5],
+  [0, 3, 2],
+  [0, 4, 3],
+  [1, 4, 1],
+  [3, 4, 10],
+  [1, 2, 2],
+  [2, 5, 3],
+  [4, 5, 4],
+]);

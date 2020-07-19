@@ -101,6 +101,7 @@
 - [1149번] RGB거리 - [RGB거리](https://juyoungpark718.github.io/posts/71)
 - [1260번] DFS와 BFS - [DFS와 BFS](https://juyoungpark718.github.io/posts/77)
 - [2178번] 미로 탐색 - [미로 탐색](https://juyoungpark718.github.io/posts/79)
+- [2606번] 바이러스 - [바이러스](https://juyoungpark718.github.io/posts/80)
 - [2579번] 계단오르기 - [계단오르기](https://juyoungpark718.github.io/posts/72)
 - [2580번] 스도쿠 - [스도쿠](https://juyoungpark718.github.io/posts/55)
 
