@@ -96,14 +96,15 @@
 
 **사용 언어 - javascript**
 
-- [1094번] 막대기 - [막대기](https://juyoungpark718.github.io/posts/69)
-- [1012번] 유기농 배추 - [유기농 배추](https://juyoungpark718.github.io/posts/78)
-- [1149번] RGB거리 - [RGB거리](https://juyoungpark718.github.io/posts/71)
-- [1260번] DFS와 BFS - [DFS와 BFS](https://juyoungpark718.github.io/posts/77)
-- [2178번] 미로 탐색 - [미로 탐색](https://juyoungpark718.github.io/posts/79)
-- [2579번] 계단오르기 - [계단오르기](https://juyoungpark718.github.io/posts/72)
 - [2580번] 스도쿠 - [스도쿠](https://juyoungpark718.github.io/posts/55)
+- [1094번] 막대기 - [막대기](https://juyoungpark718.github.io/posts/69)
+- [1149번] RGB거리 - [RGB거리](https://juyoungpark718.github.io/posts/71)
+- [2579번] 계단오르기 - [계단오르기](https://juyoungpark718.github.io/posts/72)
+- [1260번] DFS와 BFS - [DFS와 BFS](https://juyoungpark718.github.io/posts/77)
+- [1012번] 유기농 배추 - [유기농 배추](https://juyoungpark718.github.io/posts/78)
+- [2178번] 미로 탐색 - [미로 탐색](https://juyoungpark718.github.io/posts/79)
 - [2606번] 바이러스 - [바이러스](https://juyoungpark718.github.io/posts/80)
 - [2667번] 단지 번호 붙이기 - [단지 번호 붙이기](https://juyoungpark718.github.io/posts/81)
+- [2644번] 촌수계산 - [촌수계산](https://juyoungpark718.github.io/posts/82)
 
 정리 글 - [JYP블로그](https://juyoungpark718.github.io)
