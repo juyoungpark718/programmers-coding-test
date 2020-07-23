@@ -1,45 +1,42 @@
-function solution(n, costs) {
-  var answer = 0;
-  costs.sort((a, b) => a[2] - b[2]);
-  var cycleTable = Array(101).fill(-1);
-  for (var i = 0; i < costs.length; i++) {
-    if (!cycleTable.includes(costs[i][0]))
-      cycleTable[costs[i][0]] = costs[i][0];
-    if (!cycleTable.includes(costs[i][1]))
-      cycleTable[costs[i][1]] = costs[i][1];
-  }
-  var count = 0;
-  for (var i = 0; i < costs.length; i++) {
-    var current = costs[i];
-    var one = current[0];
-    var the_other = current[1];
-    var cost = current[2];
-    if (cycleTable[the_other] !== cycleTable[one]) {
-      cycleTable = changeCycleTableNumber(cycleTable, one, the_other);
-      console.log(cycleTable);
-      answer += cost;
-      count++;
+const fs = require("fs");
+// const input = fs.readFileSync("/dev/stdin").toString().trim().split(" ");
+const input = fs.readFileSync("./stdin").toString().trim().split(" ");
+
+let data = input;
+const N = parseInt(data[0]); // 수빈
+const K = parseInt(data[1]); // 동생
+
+if (N == K) {
+  console.log(0);
+  process.exit(0);
+}
+
+chk = [];
+for (let i = 0; i < 100101; i++) {
+  chk[i] = -1;
+
+  const queue = [N];
+  chk[N] = 0;
+
+  while (queue.length > 0) {
+    const x = queue.shift();
+
+    if (x + 1 == K || x - 1 == K || 2 * x == K) {
+      console.log(chk[x] + 1);
+      process.exit(0);
     }
-    if (count === n - 1) break;
-  }
-  return answer;
-}
 
-function changeCycleTableNumber(cycleTable, one, the_other) {
-  for (var i = 0; i < cycleTable.length; i++) {
-    if (cycleTable[i] === cycleTable[the_other])
-      cycleTable[i] = cycleTable[one];
+    if (x + 1 <= 100000 && chk[x + 1] == -1) {
+      chk[x + 1] = chk[x] + 1;
+      queue.push(x + 1);
+    }
+    if (x - 1 >= 0 && chk[x - 1] == -1) {
+      chk[x - 1] = chk[x] + 1;
+      queue.push(x - 1);
+    }
+    if (2 * x <= 100000 && chk[2 * x] == -1) {
+      chk[2 * x] = chk[x] + 1;
+      queue.push(2 * x);
+    }
   }
-  return cycleTable;
 }
-
-solution(6, [
-  [0, 1, 5],
-  [0, 3, 2],
-  [0, 4, 3],
-  [1, 4, 1],
-  [3, 4, 10],
-  [1, 2, 2],
-  [2, 5, 3],
-  [4, 5, 4],
-]);

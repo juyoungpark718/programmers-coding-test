@@ -78,8 +78,8 @@
 - [level3] 매칭 점수 - [매칭 점수](https://juyoungpark718.github.io/posts/76)
 
 #### level4
-- [level4] 가사 검색 - [가사 검색](https://juyoungpark718.github.io/posts/70)
 
+- [level4] 가사 검색 - [가사 검색](https://juyoungpark718.github.io/posts/70)
 
 ---
 
@@ -107,5 +107,6 @@
 - [2667번] 단지 번호 붙이기 - [단지 번호 붙이기](https://juyoungpark718.github.io/posts/81)
 - [2644번] 촌수계산 - [촌수계산](https://juyoungpark718.github.io/posts/82)
 - [7569번] 토마토 - [토마토](https://juyoungpark718.github.io/posts/83)
+- [1697번] 숨바꼭질 - [숨바꼭질](https://juyoungpark718.github.io/posts/84)
 
 정리 글 - [JYP블로그](https://juyoungpark718.github.io)

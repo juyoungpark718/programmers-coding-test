@@ -57,13 +57,13 @@ const getTomatoBoxes = (inputs) => {
         .split(" ")
         .map((tomato) => Number(tomato));
       tomatoes.forEach((tomato, column) => {
-        if (tomato === 1)
-          existTomatoes.insert([
-            column,
-            row - rowSize * boxIndex >= 0 ? row - rowSize * boxIndex : row,
-            boxIndex,
-            0,
-          ]);
+        if (tomato === 1) visited;
+        existTomatoes.insert([
+          column,
+          row - rowSize * boxIndex >= 0 ? row - rowSize * boxIndex : row,
+          boxIndex,
+          0,
+        ]);
         if (tomato === 0) totalTomato++;
       });
       box.push(tomatoes);
