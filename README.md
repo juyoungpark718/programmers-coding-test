@@ -108,5 +108,8 @@
 - [2644번] 촌수계산 - [촌수계산](https://juyoungpark718.github.io/posts/82)
 - [7569번] 토마토 - [토마토](https://juyoungpark718.github.io/posts/83)
 - [1697번] 숨바꼭질 - [숨바꼭질](https://juyoungpark718.github.io/posts/84)
+- [5014번] 스타트링크 - [스타트링크](https://juyoungpark718.github.io/posts/85)
+- [2468번] 안전영역 - [안전영역](https://juyoungpark718.github.io/posts/86)
+- [2573번] 빙산 - [빙산](https://juyoungpark718.github.io/posts/87)
 
 정리 글 - [JYP블로그](https://juyoungpark718.github.io)
