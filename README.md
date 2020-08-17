@@ -92,7 +92,7 @@
 
 ---
 
-### 프로그래머스 코딩테스트 연습 문제
+### 백준 코딩테스트 연습 문제
 
 **사용 언어 - javascript**
 
@@ -112,5 +112,6 @@
 - [2468번] 안전영역 - [안전영역](https://juyoungpark718.github.io/posts/86)
 - [2573번] 빙산 - [빙산](https://juyoungpark718.github.io/posts/87)
 - [1753번] 최단경로 - [최단경로](https://juyoungpark718.github.io/posts/93)
+- [11724번] 연결요소개수 - [연결요소개수](https://juyoungpark718.github.io/posts/94)
 
 정리 글 - [JYP블로그](https://juyoungpark718.github.io)

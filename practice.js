@@ -1,12 +1,5 @@
-class a {
-  constructor() {
-    this(size) = Symbol("size");
-    size = 1;
-  }
-  print() {
-    console.log(size);
-  }
-}
+function fizzbuzz() {}
 
-const b = new a();
-b.print();
+for (let i = 1; i <= 100; i++) {
+  console.log((i % 3 === 0 ? "fizz" : "" + (i % 5) === 0 ? "buzz" : "") || i);
+}
