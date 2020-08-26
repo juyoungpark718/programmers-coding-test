@@ -114,5 +114,6 @@
 - [2573번] 빙산 - [빙산](https://juyoungpark718.github.io/posts/87)
 - [1753번] 최단경로 - [최단경로](https://juyoungpark718.github.io/posts/93)
 - [11724번] 연결요소개수 - [연결요소개수](https://juyoungpark718.github.io/posts/94)
+- [4386번] 별자리 만들기 - [별자리 만들기](https://juyoungpark718.github.io/posts/96)
 
 정리 글 - [JYP블로그](https://juyoungpark718.github.io)
