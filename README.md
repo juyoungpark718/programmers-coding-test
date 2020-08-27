@@ -81,6 +81,7 @@
 
 - [level4] 가사 검색 - [가사 검색](https://juyoungpark718.github.io/posts/70)
 - [level4] 지형 이동 - [지형 이동](https://juyoungpark718.github.io/posts/95)
+- [level4] 징검다리 - [징검다리](https://juyoungpark718.github.io/posts/98)
 
 ---
 
@@ -115,5 +116,6 @@
 - [1753번] 최단경로 - [최단경로](https://juyoungpark718.github.io/posts/93)
 - [11724번] 연결요소개수 - [연결요소개수](https://juyoungpark718.github.io/posts/94)
 - [4386번] 별자리 만들기 - [별자리 만들기](https://juyoungpark718.github.io/posts/96)
+- [1920번] 수 찾기 - [수 찾기](https://juyoungpark718.github.io/posts/97)
 
 정리 글 - [JYP블로그](https://juyoungpark718.github.io)
