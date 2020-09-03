@@ -58,12 +58,7 @@ const getTomatoBoxes = (inputs) => {
         .map((tomato) => Number(tomato));
       tomatoes.forEach((tomato, column) => {
         if (tomato === 1) visited;
-        existTomatoes.insert([
-          column,
-          row - rowSize * boxIndex >= 0 ? row - rowSize * boxIndex : row,
-          boxIndex,
-          0,
-        ]);
+        existTomatoes.insert([column, row - rowSize * boxIndex >= 0 ? row - rowSize * boxIndex : row, boxIndex, 0]);
         if (tomato === 0) totalTomato++;
       });
       box.push(tomatoes);
@@ -73,13 +68,9 @@ const getTomatoBoxes = (inputs) => {
   return [boxes, existTomatoes];
 };
 
-const [tomatoBoxes, existTomatoes] = getTomatoBoxes(
-  input.slice(1, input.length)
-);
+const [tomatoBoxes, existTomatoes] = getTomatoBoxes(input.slice(1, input.length));
 
-const visited = Array.from(Array(heightSize), () =>
-  Array.from(Array(rowSize), () => Array(columnSize).fill(false))
-);
+const visited = Array.from(Array(heightSize), () => Array.from(Array(rowSize), () => Array(columnSize).fill(false)));
 
 // 모든 토마토가 익은 것을 확인하기위한 변수
 let tempTomato = 0;
@@ -99,16 +90,7 @@ const excuteBFS = () => {
       const nx = x + dx[i];
       const ny = y + dy[i];
       const nz = z + dz[i];
-      if (
-        nx < 0 ||
-        ny < 0 ||
-        nz < 0 ||
-        nx >= columnSize ||
-        ny >= rowSize ||
-        nz >= heightSize
-      )
-        continue;
-      if (tomatoBoxes[nz][ny][nx] !== 0 || visited[nz][ny][nx]) continue;
+      if (nx < 0 || ny < 0 || nz < 0 || nx >= columnSize || ny >= rowSize || nz >= heightSize || tomatoBoxes[nz][ny][nx] !== 0 || visited[nz][ny][nx]) continue;
       queue.insert([nx, ny, nz, day + 1]);
     }
   }

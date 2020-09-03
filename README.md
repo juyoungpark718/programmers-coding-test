@@ -117,5 +117,6 @@
 - [11724번] 연결요소개수 - [연결요소개수](https://juyoungpark718.github.io/posts/94)
 - [4386번] 별자리 만들기 - [별자리 만들기](https://juyoungpark718.github.io/posts/96)
 - [1920번] 수 찾기 - [수 찾기](https://juyoungpark718.github.io/posts/97)
+- [14888번] 연산자 끼워넣기 - [연산자 끼워넣기](https://juyoungpark718.github.io/posts/99)
 
 정리 글 - [JYP블로그](https://juyoungpark718.github.io)
