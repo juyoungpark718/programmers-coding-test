@@ -24,8 +24,6 @@ const _reduce = curry(function(f,iter,acc){
 
 const _go = (a, ...bs) => _reduce((a,f) => f(a),bs, a)
 
-const _pipe = (...bs) => a => _reduce((a,f) => f(a), bs, a);
-
 const check = (m,sec,color,base) => {
   let [x,y] = base;
   x += sec[0]*m;
